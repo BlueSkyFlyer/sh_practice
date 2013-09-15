@@ -1,6 +1,12 @@
-.inner-item {
+.homeImg img {
+	margin: 0 auto;
+	width: auto;
+	height: 400px;
+	max-height:400px;
+}
+
+.carousel-caption {
 	text-align: center;
-	img {
-		margin: 0 auto;
-	}
+	color: white;
+	background: none;
 }
