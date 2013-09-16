@@ -14,6 +14,21 @@ get '/first_time' do
 	erb :first_time
 end
 
+get '/iad' do
+	@title = "Instructor Aided Deployment (IAD)"
+	erb :iad
+end
+
+get '/tandem' do
+	@title = "Tandem Skydive"
+	erb :tandem
+end
+
+get '/student' do
+	@title = "Seven Hills Student Program"
+	erb :student
+end
+
 get '/experienced' do
 	@title = "Experienced Skydivers"
 	erb :experienced
